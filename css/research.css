@@ -1,0 +1,45 @@
+/*-----------------------Research--------------------*/
+.research{
+    width:100%;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background: rgba(0,0,0,0.4);
+    padding: 20px;
+    margin: auto;
+    color: white;
+    font-family: cursive;
+    background-color: #101010;
+    color: #fff;
+}
+
+.Research p{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: justify;
+}
+
+table{
+    max-width: 100%;
+    width: 100%;
+    border-radius: 20px;
+    height: auto;
+    border-collapse: collapse;
+    text-align: justify;
+    font-size: 20px;
+    color: #fff;
+    background-color: #4a5244;
+}
+
+    th,td{
+        border-radius: 10px;
+        border: 3px outset gray;
+        padding: 15px;
+        width: 5%;
+    }
+
+    table img{
+        width: 300px;
+        height: 300px;
+    }

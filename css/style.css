@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    filter: brightness(80%);
+}
+nav{
+    background-color: black;
+    width: 100%;
+    filter: brightness(100%);
+    height: 70px;
+}
+.logo{
+    font-size: 40px;
+    color: #fff;
+    float: left;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 5px;
+    font-family: cursive;
+    border: 2px solid red;
+}
+.logo:hover{
+    border-bottom: 4px solid orange;
+}
+    
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+}
+nav a:hover{
+    border-bottom: 3px solid darkorange;
+}
+.navbar{
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 25px;
+    
+}
+#active{
+    border-bottom: 3px solid #fff;
+    border-bottom: solid darkorange;
+    
+}
+.imgprof{
+    width: 100%;
+    height: 100vh;
+    text-transform: capitalize;
+    background-image: url(../images/perpic.jpg);
+    background-size: cover;
+    background-position: center;
+    animation: bani 6s ease-in;
+}
+@keyframes bani{
+    0%{
+        background-image: url(../images/aaa.jpg);
+    }
+    50%{
+        background-image: url(../images/mainback.jpg);
+    }
+}
+.info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0,0.4);
+    padding: 20px;
+    border-radius: 18px;
+    animation: tiani linear 3s;
+    animation-delay: 7s;
+     
+}
+@keyframes tiani{
+    0%{
+        left: 10%;
+    }
+}
+.info h1{
+    font-size: 80px;
+    color: #fff;
+    font-weight: 600;   
+        
+}
+.info h2{
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #fff;
+    
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    height: 50px;
+}
+.content-footer{
+    margin: 10px;
+}

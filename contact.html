@@ -1,0 +1,55 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Contact</title>
+         <meta name ="author" content="Sandesh adhikari">
+        <!--Font linkin-->
+        <link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC&display=swap" rel="stylesheet">
+        <link href="css/contact.css" rel="stylesheet">
+        <!--Internal CSS-->
+        <style>                   
+            .fields h2{
+                color: #fff;
+                text-align: center;
+                font-size: 40px;
+                font-family: 'IM Fell Great Primer SC', serif;
+                    
+            }
+        </style>
+    </head>
+    <body>
+        <!--Navigation Bar-->
+        <div class="header">
+            <nav>
+            <span class="logo">Sandesh</span>
+            <span class="navbar">
+                <a href="index.html">Home</a>
+                <a href="contact.html">CV</a>
+                <a href="blog.html">Blog</a>
+                <a href="Research.html">Research</a>
+                <a href="contact.html" id="active">Contact </a>
+            </span>
+        </nav>
+        </div>
+        <div>
+            <!--Form validation-->
+            <form onsubmit="return formValidate()">
+            <div class="fields">
+                <h2>Use the form below to Contact Me</h2>
+                    <input type="text" placeholder="Name *" id="name"><br>
+                        <input type="text" placeholder="Email *" id="email"><br>
+                        <input type="text" placeholder="Subject *" id="subject"><br>
+                        <input type="text" placeholder="Phone *" id="phone"><br>
+                        <textarea placeholder="Message" id="message"></textarea><br>
+                        <button type="submit" id="send-button">Send Now</button>
+                </div>
+        </form>
+        </div>
+        <div class="footer">
+        <div class="content-footer">
+            &copy; Copyright Sandesh Adhikari 2019
+        </div>
+        </div>
+        <script src="js/contact.js"></script>
+        </body>
+</html>
